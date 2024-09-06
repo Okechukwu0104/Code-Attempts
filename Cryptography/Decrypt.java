@@ -21,16 +21,16 @@ public class Decrypt {
         
 
 
-        int originalFirstDigit = (encryptedThirdDigit + 10 - 7) % 10;
+        int originalFirstDigit = (encryptedThirdDigit + 3) % 10;
         System.out.print(originalFirstDigit);
 
-        int originalSecondDigit = (encryptedFourthDigit + 10 - 7) % 10;
+        int originalSecondDigit = (encryptedFourthDigit + 3) % 10;
         System.out.print(originalSecondDigit);
 
-        int originalThirdDigit = (encryptedFirstDigit + 10 - 7) % 10;
+        int originalThirdDigit = (encryptedFirstDigit + 3) % 10;
         System.out.print(originalThirdDigit);
 
-        int originalFourthDigit = (encryptedSecondDigit + 10 - 7) % 10;
+        int originalFourthDigit = (encryptedSecondDigit + 3) % 10;
         System.out.print(originalFourthDigit);
     }
 }

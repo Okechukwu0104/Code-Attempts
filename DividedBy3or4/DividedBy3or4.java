@@ -3,7 +3,8 @@
 
 	int counter = 0;
 	    for(int count = 100; count <=200; count++ ){
-		if(count %3==0 || count %4==0 && count <=200){
+		System.out.print(' ');
+		if(count %3==0 || count %4==0 ){
 		System.out.println(count);
 		    counter++;	
 		}
